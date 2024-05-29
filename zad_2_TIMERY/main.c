@@ -11,7 +11,7 @@ int main(){
 	//InitTimer0();
 	InitTimer0Match0(Delay);
 	
-	while(1)
+	while(1) //TEKST TU
 	{
 		//WaitOnTimer0(Delay);
 		WaitOnTimer0Match0();
