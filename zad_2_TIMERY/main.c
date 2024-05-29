@@ -11,10 +11,11 @@ int main(){
 	//InitTimer0();
 	InitTimer0Match0(Delay);
 	
-	while(1) //TEKST TU
+	while(1)
 	{
 		//WaitOnTimer0(Delay);
 		WaitOnTimer0Match0();
 		LedStepLeft();
 	}
 }
+
